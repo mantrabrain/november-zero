@@ -45,7 +45,7 @@
 				<div class="top-header-right">
 					<ul class="menu-top">
 						<?php if(esc_attr(get_theme_mod('november_zero_top_header_phone'))): ?>
-						<li><a href=""><i class="fas fa-phone-volume"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_phone')); ?></a></li>
+						<li><a href=""><i class="fa fa-phone-volume"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_phone')); ?></a></li>
 						<?php endif;?>
 						<?php if(esc_attr(get_theme_mod('november_zero_top_header_email'))): ?>
 						<li><a href="" class="tt-no"><i class="far fa-envelope"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_email')); ?></a></li>
@@ -130,7 +130,7 @@
 				if($search_enable=="on"):
 			 ?>
 				<div id="nav-search">
-						<a href="#" id="nav-search-trigger"><i class="fas fa-search"></i><i class="fa fa-times"></i></a>
+						<a href="#" id="nav-search-trigger"><i class="fa fa-search"></i><i class="fa fa-times"></i></a>
 						<?php get_search_form(); ?>						
 				</div>
 			<?php endif;?>					      
