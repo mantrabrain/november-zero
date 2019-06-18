@@ -47,7 +47,7 @@
 	'section'     => 'november_zero_front_big_title',
 	'default'     => array(
 		'background-color'      => 'rgba(20,20,20,.8)',
-		'background-image'      =>  get_template_directory_uri().'/assets/img/blog2.jpg',
+		'background-image'      =>  get_template_directory_uri().'/assets/images/blog2.jpg',
 		'background-repeat'     => 'repeat',
 		'background-position'   => 'center center',
 		'background-size'       => 'cover',

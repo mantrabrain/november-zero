@@ -70,7 +70,7 @@
 								<ul class="content-list-meta">
 									<li class="post-author">
 										<div class="article-author-info flex-box">
-											<span class="img"><img alt="" src="<?php echo esc_url(get_template_directory_uri().'/assets/img/author.png'); ?>" class="avatar avatar-30 photo" height="30" width="30"></span>
+											<span class="img"><img alt="" src="<?php echo esc_url(get_template_directory_uri().'/assets/images/author.png'); ?>" class="avatar avatar-30 photo" height="30" width="30"></span>
 											<span class="infos">
 												<span class="author-name"><a class="" href=><?php  echo esc_html( get_the_author() ); ?></a></span>
 											</span>
