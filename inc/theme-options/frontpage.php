@@ -6,7 +6,7 @@
     'description' => __( 'November Zero FrontPage Options', 'november-zero' ),
    ) );
 
- $sections = array('bigtitle','about','blog','contact');
+ $sections = array('bigtitle','features','about','blog','contact');
 
  foreach ($sections as $key => $value) {
 

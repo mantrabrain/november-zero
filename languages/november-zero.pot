@@ -1072,7 +1072,7 @@ msgid "https://facebook.com"
 msgstr ""
 
 #: inc/theme-options/header.php:75
-msgid "fab fa-facebook-f "
+msgid "fa fa-facebook-f "
 msgstr ""
 
 #: inc/theme-options/header.php:82
@@ -1084,7 +1084,7 @@ msgid "Icon"
 msgstr ""
 
 #: inc/theme-options/header.php:88
-msgid "eg: fab fa-facebook-f  Reference: https://fontawesome.com/icons "
+msgid "eg: fa fa-facebook-f  Reference: https://fontawesome.com/icons "
 msgstr ""
 
 #: inc/theme-options/header.php:105

@@ -70,7 +70,7 @@
    'default'      => array( 
     array(
        'social_item' => __( 'https://facebook.com', 'november-zero' ),      
-      'social_item_icon' => __( 'fab fa-facebook-f ', 'november-zero' ),       
+      'social_item_icon' => __( 'fa fa-facebook-f ', 'november-zero' ),
     ),    
   ), 
   'fields' => array(
@@ -83,8 +83,8 @@
      'social_item_icon' => array(
       'type'        => 'text',
       'label'       => __( 'Icon', 'november-zero' ),
-      'description' => __( 'eg: fab fa-facebook-f  Reference: https://fontawesome.com/icons ', 'november-zero' ),
-      'default'     => 'fab fa-facebook-f',
+      'description' => __( 'eg: fa fa-facebook-f  Reference: https://fontawesome.com/icons ', 'november-zero' ),
+      'default'     => 'fa fa-facebook-f',
     ),
      
   ),

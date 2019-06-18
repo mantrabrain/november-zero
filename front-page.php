@@ -16,13 +16,13 @@ get_header();
             get_template_part('template-parts/content-bigtitle');
             ?>
             <?php
-            $layout = esc_attr(get_theme_mod('november_zero_layout_stting'));
+            $layout = esc_attr(get_theme_mod('november_zero_layout_stting', 'sectionboxed'));
             if ($layout == "sectionboxed"):
             ?>
             <div class="box-section">
                 <?php endif; ?>
                 <?php
-                $template_parts = get_theme_mod('november_zero_section_ordering_items', array('about', 'blog', 'contact'));
+                $template_parts = get_theme_mod('november_zero_section_ordering_items', array('feature', 'about', 'blog', 'contact'));
 
                 // Loop parts.
                 foreach ($template_parts as $template_part) {

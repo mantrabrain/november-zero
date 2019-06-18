@@ -43,12 +43,12 @@
 		<div class="container">
 			<div class="header-flex">
 				<div class="top-header-right">
-					<ul class="menu-top">
+ 					<ul class="menu-top">
 						<?php if(esc_attr(get_theme_mod('november_zero_top_header_phone'))): ?>
-						<li><a href=""><i class="fa fa-phone-volume"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_phone')); ?></a></li>
+						<li><a href=""><i class="fa fa-phone"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_phone')); ?></a></li>
 						<?php endif;?>
 						<?php if(esc_attr(get_theme_mod('november_zero_top_header_email'))): ?>
-						<li><a href="" class="tt-no"><i class="far fa-envelope"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_email')); ?></a></li>
+						<li><a href="" class="tt-no"><i class="fa fa-envelope"></i> <?php echo esc_html(get_theme_mod('november_zero_top_header_email')); ?></a></li>
 						<?php endif;?>
 					</ul>
 				</div>
