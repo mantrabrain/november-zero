@@ -61,7 +61,7 @@ if( ! function_exists('november_zero_dynamic_css') ):
 function november_zero_dynamic_css(){
 
 	/*Theme Color*/
-	$theme_color	= get_theme_mod('november_zero_theme_color');
+	$theme_color	=  get_theme_mod('november_zero_theme_color');
 
 	/*Top Header*/
 
@@ -114,8 +114,10 @@ function november_zero_dynamic_css(){
     	.main-navigation ul ul {
     		border-top: 3px solid <?php echo  esc_attr($theme_color); ?> ;
     	}
-    	#site-navigation li a:hover,#site-navigation li.current-menu-item a{
-			border-bottom:3px solid <?php echo  esc_attr($theme_color); ?> ;
+    	#site-navigation li a:hover:after,#site-navigation li.current-menu-item a:after{
+
+            background: <?php echo  esc_attr($theme_color); ?> ;
+
 		}
 		a, ul.social-icon-list li
 		{

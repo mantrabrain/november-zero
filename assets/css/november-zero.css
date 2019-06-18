@@ -722,6 +722,12 @@ header .site-branding-text, header nav,
     vertical-align: middle;
 }
 
+.page-header {
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 form.search-form label {
     width: 100%;
 }
@@ -771,6 +777,21 @@ form.search-form label {
     padding: 10px;
     margin: 0;
 
+}
+#site-navigation li a{
+    position:relative;
+}
+#site-navigation li a:hover:after,#site-navigation li.current-menu-item a:after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    background: #15a7bf;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    bottom: -3px;
+    left: 0;
 }
 
 .main-navigation ul ul li:hover > ul,
