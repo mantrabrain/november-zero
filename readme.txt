@@ -1,6 +1,6 @@
 === November Zero ===
 
-Contributors: novemberthemes
+Contributors: mantrabrain
 
 Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, custom-logo, photography, threaded-comments, e-commerce, portfolio
 
@@ -10,11 +10,11 @@ Stable tag: 1.0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Multipurpose WordPress theme with clean design even work  for Elementor drag and drop page builder
+November Zero is simple and responsive multipurpose WordPress theme.
 
 == Description ==
 
-November Zero is simple and responsive multipurpose WordPress theme. Developed for the  Elementor drag and drop page builder,  November Zero can be used  to build any  type of business  website, Landing pages, Portfolios, Photography and Creative sites, One Page , Hotel , Restaurant , Blog , Law Firm , Medical  and many more. November Zero is fully responsive, well designed and   translation ready.
+November Zero is simple and responsive multipurpose WordPress theme. November Zero can be used  to build any  type of business  website, Landing pages, Portfolios, Photography and Creative sites, One Page , Hotel , Restaurant , Blog , Law Firm , Medical  and many more. November Zero is fully responsive, well designed and   translation ready.
 
 == Installation ==
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
@@ -23,7 +23,7 @@ November Zero is simple and responsive multipurpose WordPress theme. Developed f
 
 == Copyright ==
 
-November Zero WordPress Theme, Copyright 2017 Novemberthemes
+November Zero WordPress Theme, Copyright 2017 Mantrabrain
 
 November Zero is distributed under the terms of the GNU GPL
 

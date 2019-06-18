@@ -48,7 +48,7 @@
 	<div class="site-info">
 			<?php  echo esc_html(get_theme_mod('november_zero_footer_copyright')); ?>
 			<span class="sep"> | </span>
-				 <?php  echo sprintf( esc_html__( 'Powered by %s', 'november-zero' ), '<a target="_blank" rel="designer" href="https://mantrabrain.com/">' . esc_html__( 'NovemberThemes', 'november-zero' ) . '</a>' ); ?>
+				 <?php  echo sprintf( esc_html__( 'Powered by %s', 'november-zero' ), '<a target="_blank" rel="designer" href="https://mantrabrain.com/">' . esc_html__( 'Mantrabrain', 'november-zero' ) . '</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

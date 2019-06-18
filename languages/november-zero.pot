@@ -68,7 +68,7 @@ msgid "Powered by %s"
 msgstr ""
 
 #: footer.php:51
-msgid "NovemberThemes"
+msgid "Mantrabrain"
 msgstr ""
 
 #: functions.php:50
