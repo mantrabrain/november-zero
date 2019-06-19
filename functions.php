@@ -147,7 +147,7 @@ function november_zero_scripts() {
 	wp_enqueue_style( 'november-zero-font' , november_zero_get_font() , array(), '20151215' );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.css', array(), '3.3.7' );	
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '20151215' );
+	wp_enqueue_style( 'font-awesome-style', get_template_directory_uri() . '/assets/css/font-awesome.min.css', array(), '20151215' );
 	wp_enqueue_style( 'november-zero-main', get_template_directory_uri() . '/assets/css/november-zero.css', array(), '1.0.7');
 	wp_enqueue_style( 'november-zero-style', get_stylesheet_uri() );
 

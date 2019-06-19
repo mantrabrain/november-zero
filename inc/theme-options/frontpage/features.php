@@ -161,7 +161,7 @@
    
     
     array(
-      'feature_icon' => esc_attr__( 'fas fa-mobile-alt', 'november-zero' ),
+      'feature_icon' => esc_attr__( 'fa fa-mobile-alt', 'november-zero' ),
       'feature_icon_color' => esc_attr__( '#dd3333', 'november-zero' ),
       'feature_title'  => esc_attr__( 'Responsive', 'november-zero' ),
       'feature_details'=> esc_attr__( 't is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum', 'november-zero' ),
@@ -172,8 +172,8 @@
     'feature_icon' => array(
       'type'        => 'text',
       'label'       => esc_attr__( 'Font Awesome Icon', 'november-zero' ),
-      'description' => esc_attr__( 'eg:fas fa-mobile-alt  Reference: https://fontawesome.com/icons ', 'november-zero' ),
-      'default'     => 'fas fa-mobile-alt',
+      'description' => esc_attr__( 'eg:fa fa-mobile-alt  Reference: https://fontawesome.com/icons ', 'november-zero' ),
+      'default'     => 'fa fa-mobile-alt',
     ),
     'feature_icon_color' => array(
       'type'        => 'color',
