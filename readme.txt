@@ -34,6 +34,10 @@ the Free Software Foundation, either version 2 of the License, or
 
 == Changelog ==
 
+= 1.0.7 - 6/19/2018 =
+
+* Fixes - Minor design issue fixed and tested with new wp version
+
 = 1.0.6 - October 28 2018 =
 
 * Added a function for excerpt length.
