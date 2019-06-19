@@ -1482,6 +1482,9 @@ body.top-search-open #nav-search form {
     display: inline-block;
 
 }
+.container{
+    max-width:100%;
+}
 
 div#nav-search {
     vertical-align: middle;
