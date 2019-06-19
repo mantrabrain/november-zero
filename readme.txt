@@ -5,8 +5,8 @@ Contributors: mantrabrain
 Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, custom-logo, photography, threaded-comments, e-commerce, portfolio
 
 Requires at least: 4.5
-Tested up to: 4.9.8
-Stable tag: 1.0.6
+Tested up to: 5.2.2
+Stable tag: 1.0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

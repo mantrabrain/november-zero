@@ -30,11 +30,11 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 			'quick_links' => array(
 				'theme_url' => array(
 					'text' => esc_html__( 'Theme Details', 'november-zero' ),
-					'url'  => 'https://mantrabrain.com/downloads/november-lite',
+					'url'  => 'https://mantrabrain.com/downloads/november-zero',
 					),
 				'demo_url' => array(
 					'text' => esc_html__( 'View Demo', 'november-zero' ),
-					'url'  => 'https://mantrabrain.com/demo/november-zero/',
+					'url'  => 'https://demo.mantrabrain.com/november-zero/',
 					),
 				'documentation_url' => array(
 					'text' => esc_html__( 'View Documentation', 'november-zero' ),
@@ -84,7 +84,7 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 					'icon'        => 'dashicons dashicons-sos',
 					'description' => esc_html__( 'Got theme support question or found bug or got some feedbacks? Best place to ask your query is the dedicated Support forum for the theme.', 'november-zero' ),
 					'button_text' => esc_html__( 'Contact Support', 'november-zero' ),
-					'button_url'  => 'https://mantrabrain.com/contact/',
+					'button_url'  => 'https://mantrabrain.com/contact-us/',
 					'button_type' => 'link',
 					'is_new_tab'  => true,
 					),
