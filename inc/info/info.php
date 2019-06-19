@@ -66,7 +66,16 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 					'button_type' => 'primary',
 					
 					),
-				'three' => array(
+                'three' => array(
+					'title'       => esc_html__( 'Demo Import', 'november-zero' ),
+					'icon'        => 'dashicons dashicons-admin-generic',
+					'description' => esc_html__( 'If you are starting new site then we have some starter ( already premade) theme demo and you can easily import those demos. To import demo make sure you have mantrabrain-starter-sites plugin installed and activated. You can check demo/starter sites on appearance->Starter Sites. If Starter Sites menu not appear on your appearance section then you have to install and activate mantrabrain-starter-sites wordpress plugin first.', 'november-zero' ),
+					'button_text' => esc_html__( 'Demo Import / Starter Sites', 'november-zero' ),
+					'button_url'  => admin_url( 'themes.php?page=starter-sites&browse=all' ),
+					'button_type' => 'primary',
+
+					),
+				'four' => array(
 					'title'       => esc_html__( 'Theme Options', 'november-zero' ),
 					'icon'        => 'dashicons dashicons-admin-customizer',
 					'description' => esc_html__( 'Theme uses Customizer API for theme options. Using the Customizer you can easily customize different aspects of the theme.', 'november-zero' ),
