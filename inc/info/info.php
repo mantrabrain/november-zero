@@ -38,7 +38,7 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 					),
 				'documentation_url' => array(
 					'text' => esc_html__( 'View Documentation', 'november-zero' ),
-					'url'  => 'https://mantrabrain.com/doc/november-zero/',
+					'url'  => 'https://mantrabrain.com/docs-category/november-zero-wordpress-theme/',
 					),
 				'rating_url' => array(
 					'text' => esc_html__( 'Rate This Theme','november-zero' ),
@@ -53,7 +53,7 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 					'icon'        => 'dashicons dashicons-format-aside',
 					'description' => esc_html__( 'Please check our full documentation for detailed information on how to setup and customize the theme.', 'november-zero' ),
 					'button_text' => esc_html__( 'View Documentation', 'november-zero' ),
-					'button_url'  => 'https://mantrabrain.com/doc/november-zero/',
+					'button_url'  => 'https://mantrabrain.com/docs-category/november-zero-wordpress-theme/',
 					'button_type' => 'link',
 					'is_new_tab'  => true,
 					),
@@ -93,7 +93,7 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 					'icon'        => 'dashicons dashicons-format-aside',
 					'description' => esc_html__( 'Please check our full documentation for detailed information on how to setup and customize the theme.', 'november-zero' ),
 					'button_text' => esc_html__( 'View Documentation', 'november-zero' ),
-					'button_url'  => 'https://mantrabrain.com/doc/november-zero/',
+					'button_url'  => 'https://mantrabrain.com/docs-category/november-zero-wordpress-theme/',
 					'button_type' => 'link',
 					'is_new_tab'  => true,
 					),
