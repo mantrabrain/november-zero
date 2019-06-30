@@ -20,8 +20,8 @@ function november_zero_register_required_plugins()
 
         // Include Contact form 7 Importer as recommended
         array(
-            'name' => 'Contact Form 7',
-            'slug' => 'contact-form-7',
+            'name' => 'Instagram Feed',
+            'slug' => 'mantrabrain-instagram-pack',
             'required' => false,
         ),
         array(

@@ -6,7 +6,7 @@ Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, fe
 
 Requires at least: 4.5
 Tested up to: 5.2.2
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,11 @@ the Free Software Foundation, either version 2 of the License, or
 (at your option) any later version.
 
 == Changelog ==
+
+= 1.0.8 - 6/30/2018 =
+
+* Added - Portfolio section added
+* Fixes - Minor issue fixed
 
 = 1.0.7 - 6/19/2018 =
 

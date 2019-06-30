@@ -69,11 +69,11 @@ final class November_Zero_Customize {
 		$manager->add_section(
 			new November_Zero_cstmz_Section_Pro(
 				$manager,
-				'business-champ',
+				'november-zero',
 				array(
 					'title'    => esc_html__( 'Premium Verison', 'november-zero' ),
 					'pro_text' => esc_html__( 'Upgrade To Pro',  'november-zero' ),
-					'pro_url'  => esc_url('https://mantrabrain.com/downloads/november-zero/','november-zero'),
+					'pro_url'  => esc_url_raw('https://mantrabrain.com/downloads/november-zero-pro/?utm_source=free_customizer&utm_medium=november_zero_free&utm_campaign=free_customizer','november-zero'),
 					'priority' => 0
 				)
 			)

@@ -122,7 +122,7 @@ if ( ! function_exists( 'november_zero_info_setup' ) ) :
 			'upgrade_to_pro' => array(
 				'description' => esc_html__( 'If you want more advanced features then you can upgrade to the premium version of the theme.', 'november-zero' ),
 				'button_text' => esc_html__( 'Buy Pro ', 'november-zero' ),
-				'button_url'  => 'https://mantrabrain.com/downloads/november-zero/',
+				'button_url'  => 'https://mantrabrain.com/downloads/november-zero-pro/?utm_source=free_about&utm_medium=november_zero_free&utm_campaign=free_about',
 				'button_type' => 'primary',
 				'is_new_tab'  => true,
 				),

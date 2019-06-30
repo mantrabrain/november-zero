@@ -1,15 +1,15 @@
-<?php 
+<?php
 
- Kirki::add_panel( 'november_zero_front_panel', array(
-    'priority'    => 10,
-    'title'       => __( 'FrontPage Options', 'november-zero' ),
-    'description' => __( 'November Zero FrontPage Options', 'november-zero' ),
-   ) );
+Kirki::add_panel('november_zero_front_panel', array(
+    'priority' => 10,
+    'title' => __('FrontPage Options', 'november-zero'),
+    'description' => __('November Zero FrontPage Options', 'november-zero'),
+));
 
- $sections = array('bigtitle','features','about','blog','contact');
+$sections = array('bigtitle', 'features', 'portfolio', 'about', 'blog', 'contact');
 
- foreach ($sections as $key => $value) {
+foreach ($sections as $key => $value) {
 
- 	require get_template_directory() . '/inc/theme-options/frontpage/'.$value.'.php';
- 	
- }
+    require get_template_directory() . '/inc/theme-options/frontpage/' . $value . '.php';
+
+}

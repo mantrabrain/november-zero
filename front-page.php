@@ -22,7 +22,7 @@ get_header();
             <div class="box-section">
                 <?php endif; ?>
                 <?php
-                $template_parts = get_theme_mod('november_zero_section_ordering_items', array('feature', 'about', 'blog', 'contact'));
+                $template_parts = get_theme_mod('november_zero_section_ordering_items', array('feature', 'portfolio', 'about', 'blog', 'contact'));
 
                 // Loop parts.
                 foreach ($template_parts as $template_part) {
