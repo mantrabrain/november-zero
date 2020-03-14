@@ -123,7 +123,9 @@ if ( ! class_exists( 'November_Zero_Info' ) ) {
 			$this->tabs          = isset( $this->config['tabs'] ) ? $this->config['tabs'] : array();
 			$this->page_slug     = $this->theme_slug . '-info';
 			$this->page_url     = admin_url( 'themes.php?page=' . $this->page_slug );
-			$this->notice        = '<p>' . sprintf( esc_html__( 'Welcome! Thank you for choosing %1$s. To fully take advantage of the best our theme can offer please make sure you visit theme info page.', 'november-zero' ), esc_html( $this->theme_name ) ) . '</p><p><a href="' . esc_url( $this->page_url ) . '" class="button button-primary">' . sprintf( esc_html__( 'Get started with %1$s', 'november-zero' ), $this->theme_name ) . '</a><a href="#" class="btn-dismiss" data-userid="' . esc_attr( get_current_user_id() ) . '" data-nonce="' . esc_attr( wp_create_nonce( 'november_zero_dismiss_nonce' ) ) . '">' . esc_html__( 'Dismiss this notice', 'november-zero' ) . '</a></p>';
+			$this->yatri_url = admin_url( 'theme-install.php?search=yatri' );
+
+			$this->notice        = '<p>' . sprintf( esc_html__( 'Our new modern & advance WordPress Theme called Yatri is live now.', 'november-zero' ), esc_html( $this->theme_name ) ) . '</p><p><a href="' . esc_url( $this->yatri_url ) . '" class="button button-primary">' . sprintf( esc_html__( 'Install Yatri Theme Now', 'november-zero' ), $this->theme_name ) . '</a><a href="#" class="btn-dismiss" data-userid="' . esc_attr( get_current_user_id() ) . '" data-nonce="' . esc_attr( wp_create_nonce( 'november_zero_dismiss_nonce' ) ) . '">' . esc_html__( 'Dismiss this notice', 'november-zero' ) . '</a></p>';
 		}
 
 		/**

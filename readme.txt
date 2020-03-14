@@ -6,7 +6,7 @@ Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, fe
 
 Requires at least: 4.5
 Tested up to: 5.2.2
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

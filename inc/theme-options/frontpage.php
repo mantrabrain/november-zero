@@ -6,7 +6,7 @@ Kirki::add_panel('november_zero_front_panel', array(
     'description' => __('November Zero FrontPage Options', 'november-zero'),
 ));
 
-$sections = array('bigtitle', 'feature', 'portfolio', 'about', 'blog', 'contact');
+$sections = array('bigtitle', 'features', 'portfolio', 'about', 'blog', 'contact');
 
 foreach ($sections as $key => $value) {
 

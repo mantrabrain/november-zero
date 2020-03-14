@@ -20,7 +20,7 @@ Kirki::add_field('november_zero_section_ordering_items', array(
     ),
     'choices' => array(
         'about' => __('About', 'november-zero'),
-        'features' => __('Features', 'november-zero'),
+        'feature' => __('Features', 'november-zero'),
         'portfolio' => __('Portfolio', 'november-zero'),
         'blog' => __('Blog', 'november-zero'),
         'contact' => __('Contact', 'november-zero'),
